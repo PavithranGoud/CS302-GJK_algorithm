@@ -1,0 +1,17 @@
+To compile in terminal:
+	g++ -std=c++17 gjk.cpp
+To run the compiled output enter this in terminal:
+	./a.out
+
+
+inputs folder contains the inputs given to the program. Any input file is expected to be located
+in this folder. Input format goes as : 
+	line 1 : number of vertices for polyhedra 1 - N1
+	N1 lines follow each containing 3 space seperated numbers denoting each vertex.
+	line 2+N1: number of vertices for polyhedra 2 - N2
+	N2 lines follow each containing 3 space seperated numbers denoting each vertex.
+
+blender folder contains the .blend files created in blender. We have creted input test cases in
+this software. After creating two polyhedra we can import a .obj file which will contain the
+vertices of both the polyhedra. We copied this data into .txt files in inputs folder.
+Our algorithm gjk.cpp takes these vertices as inputs.	
